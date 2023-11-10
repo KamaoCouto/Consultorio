@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="Infos">
+    <file>../Icons/Infos/Andamento_OFF.png</file>
+    <file>../Icons/Infos/Andamento_ON.png</file>
+    <file>../Icons/Infos/Progresso_OFF.png</file>
+    <file>../Icons/Infos/Progresso_ON.png</file>
+  </qresource>
+</RCC>

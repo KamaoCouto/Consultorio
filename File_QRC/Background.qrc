@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="BackGround">
+    <file>../Icons/BT_s/Icon_SendKey_3.png</file>
+    <file>../Icons/BT_s/Icon_SendKey_1.png</file>
+    <file>../Icons/BT_s/Icon_SendKey_2.png</file>
+    <file>../Icons/BT_s/Icon_Login_9.png</file>
+    <file>../Icons/BT_s/Icon_Login_10.png</file>
+    <file>../Icons/Backgrounds/NovoCadastro.png</file>
+    <file>../Icons/Logos/Inicial_Cadastro.png</file>
+    <file>../Icons/BT_s/Icon_Mail_1.png</file>
+    <file>../Icons/BT_s/Icon_Mail_2.png</file>
+    <file>../Icons/BT_s/Icon_Mail_3.png</file>
+    <file>../Icons/Backgrounds/Login.png</file>
+    <file>../Icons/Backgrounds/Imagem2u.png</file>
+    <file>../Icons/Backgrounds/Home.jpg</file>
+    <file>../Icons/Backgrounds/Green.jpg</file>
+    <file>../Icons/Backgrounds/GreySorriso.jpg</file>
+    <file>../Icons/Backgrounds/Imagem1.jpg</file>
+    <file>../Icons/Backgrounds/Imagem2.jpg</file>
+    <file>../Icons/Backgrounds/Imagem3.jpg</file>
+    <file>../Icons/Backgrounds/Imagem4.png</file>
+    <file>../Icons/Backgrounds/Login.png</file>
+    <file>../Icons/Backgrounds/Red.jpg</file>
+    <file>../Icons/Backgrounds/Sorriso.jpg</file>
+    <file>../Icons/Backgrounds/Sorriso_2.jpg</file>
+    <file>../Icons/Backgrounds/Yellow.jpg</file>
+  </qresource>
+</RCC>

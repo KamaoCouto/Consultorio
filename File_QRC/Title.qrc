@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="Title">
+    <file>../Icons/Titles/LBL_AnaliseDados1.png</file>
+    <file>../Icons/Titles/LBL_AnaliseDados2.png</file>
+    <file>../Icons/Titles/LBL_AnaliseDados3.png</file>
+    <file>../Icons/Titles/LBL_ControleDeAgenda.png</file>
+    <file>../Icons/Titles/LBL_ControleDeMedicamentos.png</file>
+    <file>../Icons/Titles/LBL_FluxoCaixa.png</file>
+    <file>../Icons/Titles/LBL_GerenciarConsultas.png</file>
+    <file>../Icons/Titles/LBL_GerenciarDespesas.png</file>
+    <file>../Icons/Titles/LBL_GerenciarEstoque.png</file>
+    <file>../Icons/Titles/LBL_GerenciarProntuários.png</file>
+    <file>../Icons/Titles/LBL_GerenciarReceitas.png</file>
+    <file>../Icons/Titles/LBL_Informacoes.png</file>
+    <file>../Icons/Titles/LBL_InstituicoesParceiras.png</file>
+    <file>../Icons/Titles/LBL_ListaDePaciente.png</file>
+    <file>../Icons/Titles/LBL_Logo.png</file>
+    <file>../Icons/Titles/LBL_NovoCadastro.png</file>
+    <file>../Icons/Titles/LBL_Procedimentos.png</file>
+  </qresource>
+</RCC>

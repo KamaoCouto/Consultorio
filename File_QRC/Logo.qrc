@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>../Icons/Logos/Icon_Dente.png</file>
+    <file>../Icons/Logos/Icon_Menu.png</file>
+    <file>../Icons/Logos/Icon_Menu2.png</file>
+    <file>../Icons/Logos/Imagem1.png</file>
+    <file>../Icons/Logos/Inicial_Cadastro.png</file>
+    <file>../Icons/Logos/Logo.png</file>
+    <file>../Icons/Logos/Prontuario.png</file>
+  </qresource>
+</RCC>

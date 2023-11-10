@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_novoUsuario</class>
+ <widget class="QWidget" name="Form_novoUsuario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>375</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>377</width>
+    <height>587</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="LBL_Fundo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>377</width>
+     <height>588</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>377</width>
+     <height>588</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>588</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/BackGround/Icons/Backgrounds/NovoCadastro.png);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TXT_Senha">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>155</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>  Senha</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LBL_Email">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>265</y>
+     <width>40</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{ 
+background-image: url(:/BackGround/Icons/BT_s/Icon_Mail_1.png);
+border:15px;
+}
+
+QLabel:hover{
+border:15px;
+background-image: url(:/BackGround/Icons/BT_s/Icon_Mail_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LBL_Nome">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>85</y>
+     <width>40</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_1.png);
+border:15px;
+}
+
+QLabel:hover{
+border:15px;
+	background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LBL_Senha">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>145</y>
+     <width>40</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_4.png);
+border:15px;
+}
+
+QLabel:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_5.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TXT_Email">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>275</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>  Email </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TXT_SenhaConfirmacao">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>215</y>
+     <width>220</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string> Confirmação de senha</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LBL_SenhaConfirmacao">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>205</y>
+     <width>40</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_4.png);
+border:15px;
+}
+
+QLabel:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Login_5.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>155</y>
+     <width>38</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="f_senhaShow_1">
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="BT_senhaShow_1">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>28</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_1.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_2.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="f_senhaHide_1">
+      <property name="maximumSize">
+       <size>
+        <width>0</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="BT_senhaHide_1">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>28</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_2.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_1.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>215</y>
+     <width>40</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="f_senhaShow_2">
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="BT_senhaHide_2">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>28</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_1.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_2.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="f_senhaHide_2">
+      <property name="maximumSize">
+       <size>
+        <width>0</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>28</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_2.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_eye_1.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="LBL_CodigoAcesso">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>325</y>
+     <width>40</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{ 
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Key_1.png);
+border:15px;
+}
+
+QLabel:hover{
+border:15px;
+background-image: url(:/Bt_s/Icons/BT_s/Icon_Key_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TXT_CodigoAcesso">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>335</y>
+     <width>260</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>  Código de acesso &quot;xxx - xxx&quot;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CB_Dentista">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>415</y>
+     <width>100</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Dentista</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CB_Atenfimento">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>440</y>
+     <width>100</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Atendimento</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LBLFuncao">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>385</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string> Função </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TXT_Nome">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>260</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string> Nome</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_7">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>275</y>
+     <width>68</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>68</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_12">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="maximumSize">
+       <size>
+        <width>65</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="maximumSize">
+          <size>
+           <width>65</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/BackGround/Icons/BT_s/Icon_SendKey_1.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/BackGround/Icons/BT_s/Icon_SendKey_2.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="maximumSize">
+       <size>
+        <width>0</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="maximumSize">
+          <size>
+           <width>65</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/BackGround/Icons/BT_s/Icon_SendKey_3.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/BackGround/Icons/BT_s/Icon_SendKey_2.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>420</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="BT_ValidarCadastro">
+         <property name="maximumSize">
+          <size>
+           <width>123</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/BackGround/Icons/BT_s/Icon_Login_9.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/BackGround/Icons/BT_s/Icon_Login_10.png);
+}</string>
+         </property>
+         <property name="text">
+          <string>Validar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>0</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="BT_Cadastrar">
+         <property name="maximumSize">
+          <size>
+           <width>123</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Verdana</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{ 
+background-image: url(:/BackGround/Icons/BT_s/Icon_Login_10.png);
+border:15px;
+}
+
+QPushButton:hover{
+border:15px;
+background-image: url(:/BackGround/Icons/BT_s/Icon_Login_9.png);
+}</string>
+         </property>
+         <property name="text">
+          <string>Cadastrar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../File_QRC/Background.qrc"/>
+  <include location="../File_QRC/BT_s.qrc"/>
+  <include location="../File_QRC/Infos.qrc"/>
+  <include location="../File_QRC/Logo.qrc"/>
+  <include location="../File_QRC/Title.qrc"/>
+ </resources>
+ <connections/>
+</ui>
